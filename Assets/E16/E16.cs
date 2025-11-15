@@ -13,7 +13,9 @@ public class E16 : MonoBehaviour
     {
         //Esto hace que el objeto se mueva en diagonal hacia abajo a la derecha cada frame.
 
-        transform.position += new Vector3(1f, -1f, 0f) * Time.deltaTime;
+        Vector3 direccion = new Vector3(1, -1, 0);
+        transform.position = transform.position + direccion;
+
 
     }
 }

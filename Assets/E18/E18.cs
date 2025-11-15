@@ -3,6 +3,8 @@ using UnityEngine;
 public class E18 : MonoBehaviour
 {
     [SerializeField]
+
+    //para poder cambiar la velocidad desde el inspector
     private float velocidad;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,9 +16,11 @@ public class E18 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Muevo el objeto hacia arriba a la izquierda con la velocidad ajustable.
-        //Y lo multiplico por deltaTime para que funcione igual en cualquier PC. 
+        //movimiento hacia arriba a la izquierda
+        //movimiento con velocidad ajustable y deltaTime para ajustar
 
-        transform.position += new Vector3(-1f, 1f, 0f) * velocidad * Time.deltaTime;
+        Vector3 direccion = new Vector3(-1, 1, 0);
+
+        transform.position = transform.position + direccion * velocidad * Time.deltaTime;
     }
 }

@@ -2,90 +2,61 @@ using UnityEngine;
 
 public class E10 : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Genera dos numeros aleatorios entre -10 y 10
-
-
+        // Genero dos números aleatorios entre -10 y 10
         float numeroA = Random.Range(-10f, 10f);
         float numeroB = Random.Range(-10f, 10f);
 
+        // Genero un número aleatorio del 0 al 4 para elegir la operación
+        int operacion = Random.Range(0, 5); // 0=+, 1=-, 2=*, 3=/, 4=%
 
+        float resultado = 0;
 
-        //Esto es para elegir una operación aleatoria.
-
-        string operacion = "";
-
-        int opcion = Random.Range(0, 5); // 0, 1, 2, 3, 4
-
-        switch (opcion)
+        // Uso if/else para decidir qué operación hacer
+        if (operacion == 0)
         {
-            case 0:
-                operacion = "+";
-                break;
-            case 1:
-                operacion = "-";
-                break;
-            case 2:
-                operacion = "*";
-                break;
-            case 3:
-                operacion = "/";
-                break;
-            case 4:
-                operacion = "%";
-                break;
+            resultado = numeroA + numeroB;
+            Debug.Log(numeroA + " + " + numeroB + " = " + resultado);
         }
-
-        float resultado = 0f;
-
-        switch (operacion)
+        else if (operacion == 1)
         {
-            case "+":
-                resultado = numeroA + numeroB;
-                break;
-
-            case "-":
-                resultado = numeroA - numeroB;
-                break;
-
-            case "*":
-                resultado = numeroA * numeroB;
-                break;
-
-            case "/":
-                if (numeroB != 0)
-                {
-                    resultado = numeroA / numeroB;
-                }
-                else
-                {
-                    Debug.Log("Error: División por cero.");
-                    return;
-                }
-                break;
-
-            case "%":
-                if (numeroB != 0)
-                {
-                    resultado = numeroA % numeroB;
-                }
-                else
-                {
-                    Debug.Log("Error: Módulo con cero.");
-                    return;
-                }
-                break;
+            resultado = numeroA - numeroB;
+            Debug.Log(numeroA + " - " + numeroB + " = " + resultado);
         }
-
-        Debug.Log(numeroA + " " + operacion + " " + numeroB + " = " + resultado);
-
+        else if (operacion == 2)
+        {
+            resultado = numeroA * numeroB;
+            Debug.Log(numeroA + " * " + numeroB + " = " + resultado);
+        }
+        else if (operacion == 3)
+        {
+            if (numeroB != 0)
+            {
+                resultado = numeroA / numeroB;
+                Debug.Log(numeroA + " / " + numeroB + " = " + resultado);
+            }
+            else
+            {
+                Debug.Log("No se puede dividir por cero");
+            }
+        }
+        else if (operacion == 4)
+        {
+            if (numeroB != 0)
+            {
+                resultado = numeroA % numeroB;
+                Debug.Log(numeroA + " % " + numeroB + " = " + resultado);
+            }
+            else
+            {
+                Debug.Log("No se puede hacer módulo con cero");
+            }
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

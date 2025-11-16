@@ -1,8 +1,7 @@
 using UnityEngine;
 
-public class E19 : MonoBehaviour
+public class MovimientoCuboA : MonoBehaviour
 {
-    //Vel Inspector
     [SerializeField] private float velocidad;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -14,10 +13,8 @@ public class E19 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //El objeto no se mueve si no se pulsa ninguna tecla. 
         Vector3 direccion = new Vector3(0, 0, 0);
 
-        //Para detectar si se estan pulsando las teclas.
         if (Input.GetKey(KeyCode.W))
         {
             direccion.y = 1;
@@ -35,8 +32,8 @@ public class E19 : MonoBehaviour
             direccion.x = 1;
         }
 
-        //Aplicamos el movimiento
         transform.position = transform.position + direccion * velocidad * Time.deltaTime;
 
+        //He usado el script de movimiento del ejercicio 19.
     }
 }

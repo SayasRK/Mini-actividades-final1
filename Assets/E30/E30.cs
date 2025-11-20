@@ -37,12 +37,12 @@ public class E30 : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Entraste");
+        Debug.Log("Entras");
     }
 
     void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Saliste");
+        Debug.Log("Sales");
     }
 }
 

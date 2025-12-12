@@ -25,6 +25,6 @@ public class Seguidor1 : MonoBehaviour
         float desiredX = direction.x * maxSpeed;
 
        
-        rb.velocity = new Vector2(desiredX, rb.velocity.y);
+        rb.linearVelocityX = desiredX;
     }
 }

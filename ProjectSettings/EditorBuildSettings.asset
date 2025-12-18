@@ -6,8 +6,170 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/_MainMenu/MainMenu.unity
+    guid: 6cb354982b35ea040ac6c98346f8abfa
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/E01/E01.unity
+    guid: 476c2b031dd18704b8d6f6df8aa39d74
+  - enabled: 1
+    path: Assets/E02/E02.unity
+    guid: dfb8ee680e148e643ac3a6acaa49cdab
+  - enabled: 1
+    path: Assets/E03/E03.unity
+    guid: d682abe70cdac4d43b927737fa7c65ff
+  - enabled: 1
+    path: Assets/E04/E04.unity
+    guid: 6b99a962e7f0cfe48b6448e1930411d3
+  - enabled: 1
+    path: Assets/E05/E05.unity
+    guid: bcb9f1cd92cc7b846b0b47d5c0f979e3
+  - enabled: 1
+    path: Assets/E06/E06.unity
+    guid: 96b12086e56c44f4ab48d344a637892f
+  - enabled: 1
+    path: Assets/E07/E07.unity
+    guid: 677bd4c956012c84593e0ca9257899c5
+  - enabled: 1
+    path: Assets/E08/E08.unity
+    guid: 7828a203c75d81d439bb26fc657ff047
+  - enabled: 1
+    path: Assets/E09/E09.unity
+    guid: c7f53f86395e2194fa1e93d04e177712
+  - enabled: 1
+    path: Assets/E10/E10.unity
+    guid: c5239bd863edd29488ec69106509661c
+  - enabled: 1
+    path: Assets/E11/E11.unity
+    guid: e2ab828d8df715f4fb9fe64d3e1d2b6b
+  - enabled: 1
+    path: Assets/E12/E12.unity
+    guid: 714656aa484094e40b67f0ed158a20fc
+  - enabled: 1
+    path: Assets/E13/E13.unity
+    guid: 350e2d83337254343ba13783b213a135
+  - enabled: 1
+    path: Assets/E14/E14.unity
+    guid: 07a84d1d8ef799b4b9fda1a547acf30a
+  - enabled: 1
+    path: Assets/E15/E15.unity
+    guid: 7800054a6fdeb2a4fbddd8f6038ec349
+  - enabled: 1
+    path: Assets/E16/E16.unity
+    guid: ac62fb42c2f651442bf8ba43ce7f783d
+  - enabled: 1
+    path: Assets/E17/E17.unity
+    guid: bd159a9db35a72946910431925ea9351
+  - enabled: 1
+    path: Assets/E18/E18.unity
+    guid: e41dd1f7f96b63f4bae9947ac143e9d7
+  - enabled: 1
+    path: Assets/E19/E19.unity
+    guid: fda0f72680fa6da40929c13f7414f7c0
+  - enabled: 1
+    path: Assets/E20/E20.unity
+    guid: ffd67f5a5b378884eb74f535735229a6
+  - enabled: 1
+    path: Assets/E21/E21.unity
+    guid: f297a3c1b3a86594dbcf19bdc0d8dfe4
+  - enabled: 1
+    path: Assets/E22/E22.unity
+    guid: 253c7be81c56a3747a2473cd40576ba8
+  - enabled: 1
+    path: Assets/E23/E23.unity
+    guid: 43733d081c9f4b348967e3e6304c97d8
+  - enabled: 1
+    path: Assets/E24/E24.unity
+    guid: bc1cddf2a4adad64b9321e813dec1672
+  - enabled: 1
+    path: Assets/E25/E25.unity
+    guid: c2818d2136e7a4045865b2c5f4b28d44
+  - enabled: 1
+    path: Assets/E26/E26.unity
+    guid: d9b07cba49f861d488880d6b45a655d5
+  - enabled: 1
+    path: Assets/E27/E27.unity
+    guid: 8891b8d1626c89e4c8ed3e07a38a7cab
+  - enabled: 1
+    path: Assets/E28/E28.unity
+    guid: d2ee26498432b3d41b2d5cfe9863b321
+  - enabled: 1
+    path: Assets/E29/E29.unity
+    guid: 821712bf3080ffc409b9b38158e3253c
+  - enabled: 1
+    path: Assets/E30/E30.unity
+    guid: 8e3140af0f8cbdf4eb0b9f0c9f9f16ba
+  - enabled: 1
+    path: Assets/E31/E31.unity
+    guid: 0aae6bc7eedb4cf409fac0b9409f88c4
+  - enabled: 1
+    path: Assets/E32/E32.unity
+    guid: 895776ce71bc79945a8d5065682f3745
+  - enabled: 1
+    path: Assets/E33/E33.unity
+    guid: ce760993f6568ba4cbac7604411d799e
+  - enabled: 1
+    path: Assets/E34/E34.unity
+    guid: 2ae8b3d246946bb4fb15891efa940fc1
+  - enabled: 1
+    path: Assets/E35/E35.unity
+    guid: 7609886c9ce8baa4fb58b296ebd5a4e0
+  - enabled: 1
+    path: Assets/E36/E36.unity
+    guid: 23a0fa913bdd4be46a312fd66a13e3ab
+  - enabled: 1
+    path: Assets/E37/E37.unity
+    guid: 813f6f66839e1f243be2e08cb151caef
+  - enabled: 1
+    path: Assets/E38/E38.unity
+    guid: 8fefeefdf0b47514a9ebb2ffbede14cf
+  - enabled: 1
+    path: Assets/E39/E39.unity
+    guid: b2e7a2a63f3eb994c8ee9767d873fb41
+  - enabled: 1
+    path: Assets/E40/E40.unity
+    guid: b6a6040c0df92ff42aaebaef1014790e
+  - enabled: 1
+    path: Assets/E41/E41.unity
+    guid: a555f2907d4e5b341b79e92c01b30c82
+  - enabled: 1
+    path: Assets/E42/E42.unity
+    guid: 9dc5c44a96f517a40b3cf4cd302df6d5
+  - enabled: 1
+    path: Assets/E43/E43.unity
+    guid: d8d62050673933a4fbbbd2429d4fba19
+  - enabled: 1
+    path: Assets/E44/E44.unity
+    guid: b2936ee55b13eeb4ab92e7e69ec920b4
+  - enabled: 1
+    path: Assets/E45/E45.unity
+    guid: bfb883fc2fe8cc444be246da9b4e92e2
+  - enabled: 1
+    path: Assets/E46/E46.unity
+    guid: 55d00e8056028044fb1379213932c5e8
+  - enabled: 1
+    path: Assets/E47/E47.unity
+    guid: fd03d6065e72e4743818b4bcbd8fa0db
+  - enabled: 1
+    path: Assets/E48/E48.unity
+    guid: a35d84763c1645843926bdbacc30dd91
+  - enabled: 1
+    path: Assets/E49/E49.unity
+    guid: 51e59114040c8904fa837b2c8d77b592
+  - enabled: 1
+    path: Assets/E50/E50.unity
+    guid: f590ac45f0be1f34190560b7908db7d9
+  - enabled: 1
+    path: Assets/E51/E51.unity
+    guid: 488e7d0984253024d821a845cb48294c
+  - enabled: 1
+    path: Assets/E52/E52.unity
+    guid: 9a0ae638599030442b253f57cc4ee952
+  - enabled: 1
+    path: Assets/E53/E53.unity
+    guid: eee2baf221502224aae4f082ea69acf8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0

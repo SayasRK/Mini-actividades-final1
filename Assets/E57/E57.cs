@@ -2,10 +2,8 @@ using UnityEngine;
 
 public class E57 : MonoBehaviour
 {
-    [Header("Movement (2D)")]
     [SerializeField] private float velocidad = 5f;
 
-    [Header("Explosion (2D Physics)")]
     [SerializeField] private float radioExplosion = 3f;
     [SerializeField] private float fuerzaExplosion = 20f;
 

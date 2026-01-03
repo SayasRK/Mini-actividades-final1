@@ -8,6 +8,7 @@ TagManager:
   - ZonaAzul
   - Bloque
   - Coin
+  - Destructible
   layers:
   - Default
   - TransparentFX

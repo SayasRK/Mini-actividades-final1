@@ -1,0 +1,58 @@
+using UnityEngine;
+using UnityEngine.UI;
+
+public class E61 : MonoBehaviour
+{ 
+[SerializeField] private float velocidad = 5f;
+[SerializeField] private GameObject circulo;
+[SerializeField] private Text counterText;
+
+private Rigidbody2D rb;
+private Vector2 input;
+private int counter = 0;
+
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {
+        rb = GetComponent<Rigidbody2D>();
+        counterText.text = counter.ToString();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        float x = 0f;
+        float y = 0f;
+
+        if (Input.GetKey(KeyCode.A)) x = -1f;
+        if (Input.GetKey(KeyCode.D)) x = 1f;
+        if (Input.GetKey(KeyCode.S)) y = -1f;
+        if (Input.GetKey(KeyCode.W)) y = 1f;
+
+        input = new Vector2(x, y).normalized;
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            GameObject go = Instantiate(circulo, transform.position, Quaternion.identity);
+            Destroy(go, 3f);
+
+            counter++;
+            counterText.text = counter.ToString();
+
+            Invoke(nameof(Despawn), 3f);
+        }
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + input * velocidad * Time.fixedDeltaTime);
+    }
+
+    void Despawn()
+    {
+        counter--;
+        counterText.text = counter.ToString();
+    }
+}

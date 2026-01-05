@@ -170,6 +170,57 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/E53/E53.unity
     guid: eee2baf221502224aae4f082ea69acf8
+  - enabled: 1
+    path: Assets/E54/E54.unity
+    guid: ed90a1948f036d84c84220c0f53678b1
+  - enabled: 1
+    path: Assets/E55/E55.unity
+    guid: b95d6aa6639f2424ba9491a3243ff183
+  - enabled: 1
+    path: Assets/E56/E56.unity
+    guid: 790c961d5f03fa540bc9355172b5d89f
+  - enabled: 1
+    path: Assets/E57/E57.unity
+    guid: ac5ef9da7d8ec9d4f95bfc31483893ee
+  - enabled: 1
+    path: Assets/E58/E58.unity
+    guid: 2c3196ad74263a546bf9ca59c47cd1de
+  - enabled: 1
+    path: Assets/E59/E59.unity
+    guid: c80d7ac9581e0f4409ceaed3f0179ea9
+  - enabled: 1
+    path: Assets/E60/E60.unity
+    guid: 8635f3949c26b6b4298fd29ef00c1c76
+  - enabled: 1
+    path: Assets/E61/E61.unity
+    guid: 385299c01cb22fc48ab27ad4f40d24e8
+  - enabled: 1
+    path: Assets/E62/E62.unity
+    guid: 6adcbc3e63b83744ab5461d9b65d4040
+  - enabled: 1
+    path: Assets/E63/E63.unity
+    guid: cfa2e01bb8b01d14c84709083b4631eb
+  - enabled: 1
+    path: Assets/E64/E64.unity
+    guid: 4dfc9af6df80ec74da78dadeb4f77046
+  - enabled: 1
+    path: Assets/E65/E65.unity
+    guid: 3d8156478c4224b4897f1780b1d9ca40
+  - enabled: 1
+    path: Assets/E66/E66_Verde.unity
+    guid: 217cbdc9d21f14b49a2b8c6858cddc9a
+  - enabled: 1
+    path: Assets/E66/E66_Azul.unity
+    guid: 1172e362dc56083408ab460207822a93
+  - enabled: 1
+    path: Assets/E66/E66_Rojo.unity
+    guid: f67b231c79afd1c42933ae5c97226caf
+  - enabled: 1
+    path: Assets/E67/E67_Rojo.unity
+    guid: ae374ff3990ac2a48885366a9af2abea
+  - enabled: 1
+    path: Assets/E67/E67_blue.unity
+    guid: f6aa6a07f275ea44b987aeccd2eb05d0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
